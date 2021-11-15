@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charsets= "UTF-8">
+        <meta name="description" content="Munayem Ahad Portfolio">
+        <meta name="author" content="Munayem Ahad">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <title>Munayem Ahad Portfolio</title>
+        <link rel="stylesheet" href="../css/my_style_sheet.css">
+        <script src="path" charset="anonymous"></script>
+
+
+
+
+
+        <script src="https://kit.fontawesome.com/8c316cff0c.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        <header>
+            <h1>Munayem Ahad's Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./my_resume.html">Resume</a></li>
+                    <li><a href="./my_fun_facts.html">Fun Facts</a></li>
+                    <li><a href="./blog.html">Fun Facts</a></li>
+                    
+
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            
+                <div id="video_files">
+                    <h2>Current Dream car</h2>
+					<h5>The 2021 Mercedes-AMG GT Black Series</h5>
+                    <video src="..\video/car" controls width="55%">
+                        Your broweser does not support the video format.
+                    </video>               
+
+                    <h1>This is my current dream car</h1>
+                    <h3>
+                        An AMG Black Series is very rare. The 720-hp AMG GT is the sixth version of the AMG and Mercedes collaboration on AMGs own car. Some specs of the car include;
+•	Engine Twin-Turbocharged 4.0-liter V8.
+•	Output 720 Horsepower / 590 Pound-Feet.
+•	Transmission Seven-Speed Dual-Clutch.
+•	Drive Type Rear-Wheel Drive.
+•	Speed 0-60 MPH 3.2 Seconds.
+•	Maximum speed 202 MPH.
+•	Efficiency 15 City / 20 Highway / 17 Combined.
+•	Weight 3,500 Pounds
+This car is the automobile for someone who wants to be able to drive there car everyday to work and the racetrack on the weekend and be confident they will destroy most other cars there. Another great thing about the AMG Gt black Series is that Mercedes allows maximus customer customization with their bespoke package.  
+
+                    </h3>
+                </div>
+            </section>
+        </main>
+<hr>
+        <footer>
+                <p>Contact me through Email or Linkedin</p>
+            
+                           <i class="fab fa-linkedin-in"></i>
+            <a href="https://www.linkedin.com/in/Munayem-ahad-269414"> click here to visit the webpage of linkedin</a>
+
+            <i class="fas fa-envelope-open"></i>
+            <a href="mailto:mahad@oakland.edu" aria-label="Email MunayemA">click here to send me an email</a>
+            <br>&copy; 2021, Munayem ahad <br>  
+        </footer>
+          
+    </body>
+    <section id="app">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="comment">
+            <p v-for="items in item" v-text="items"></p>
+              </div><!--End Comment-->
+              </div><!--End col -->
+              </div><!-- End row -->
+          <div class="row">
+            <div class="col-6">
+          <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+              <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+            </div><!-- End col -->
+          </div><!--End Row -->
+        </div><!--End Container -->
+      </section><!-- end App -->
+    
+
+
+
+</html>
